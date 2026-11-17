@@ -19,6 +19,13 @@ const config = {
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
         foreground: 'hsl(var(--foreground))',
+        brand: {
+          DEFAULT: 'hsl(var(--brand))',
+          hover: 'hsl(var(--brand-hover))',
+          soft: 'hsl(var(--brand-soft))',
+        },
+        surface: 'hsl(var(--surface))',
+        focus: 'hsl(var(--focus))',
         primary: {
           DEFAULT: 'hsl(var(--primary))',
           foreground: 'hsl(var(--primary-foreground))',
